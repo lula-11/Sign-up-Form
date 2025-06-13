@@ -1,0 +1,81 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.left{
+    display: flex;
+    width: 40%;
+    position: relative; 
+}
+
+.logo{
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+span{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.right{
+    width: 60%;
+    background-color: rgb(246, 245, 245);
+
+}
+
+
+
+.information{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+        margin: 5%;
+
+}
+
+.white{
+    background-color: white;
+}
+
+p{
+    font-weight: bolder;
+    overflow-wrap: break-word;
+    margin: 5%;
+}
+
+input{
+    border-color: #E5E7EB;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    border-color: blue;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin: 5%;
+}
